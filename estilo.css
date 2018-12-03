@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+ul{
+	list-style-type:nome;
+	overflow: hidden;
+	background-color: #f9ffff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+li{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+li a{
+	display: block;
+	color: #737373;
+	text-align: center;
+	padding: 30px 15px;
+	text-decoration: none;
+}
+li a:hover{
+	color: #800080;
+}
