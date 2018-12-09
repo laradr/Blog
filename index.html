@@ -12,7 +12,7 @@
 			<header>
 				<nav> <!-- Menu -->
 					<ul>
-					<img src="imagens/logo.png" alt="Logo">
+					<a name="home" id="home"> <img src="imagens/logo.png" alt="Logo"> </a>
 					<li> <a href="#home"> HOME </a> </li>
 					<li> <a href="#galeria"> GALERIA </a> </li>
 					<li> <a href="#sobre"> SOBRE </a> </li>
@@ -25,28 +25,54 @@
 						<header>
 							<img src="imagens/girl_power2.png" alt="Girl Power">
 							<h1> Cras</br>antes</br>erosfa</br>fermetum </h1>
-							<button class="button-inicial">Mais</button>
+							<a href="#sobre"> <button class="button-inicial">Mais</button> </a>
 						</header>
 					</div>
 				</section>
 				<section> <!-- Galeria em Flexbox -->
-					<article>
-						<div class="galeria">
-							<div class="galeria-item">
-								<img  class="galeria-imagem" src="imagens/imagem1.jpg" alt="Flores Brancas">
+					<a name="galeria" id="galeria">
+						<article>
+							<div class="galeria">
+								<div class="galeria-item">
+									<img  class="galeria-imagem" src="imagens/imagem1.jpg" alt="Flores Brancas">
+								</div>
+								<div class="galeria-item">
+									<img class="galeria-imagem" src="imagens/imagem2.jpg" alt="Fundo Rosa">
+								</div>
+								<div class="galeria-item">
+									<img class="galeria-imagem" src="imagens/imagem3.jpg" alt="Fundo Verde">
+								</div>
+								<div class="galeria-item">
+									<img class="galeria-imagem" src="imagens/imagem4.jpg" alt="Fundo Roxo">
+								</div>
 							</div>
-							<div class="galeria-item">
-								<img class="galeria-imagem" src="imagens/imagem2.jpg" alt="Fundo Rosa">
-							</div>
-							<div class="galeria-item">
-								<img class="galeria-imagem" src="imagens/imagem3.jpg" alt="Fundo Verde">
-							</div>
-							<div class="galeria-item">
-								<img class="galeria-imagem" src="imagens/imagem4.jpg" alt="Fundo Roxo">
-							</div>
-						</div>
-					</article>
+						</article>
+					</a>
 				</section>
+				<section> <!-- Sobre -->
+					<a name="sobre" id="sobre">
+					<div class="sobre">
+						<header>
+							<h1> Ut lacinia sagittis libero cursus placerat </h1>
+						</header>
+						<article>
+								<video width="400" controls>
+									<source src="imagens/vídeo.avi" type="video/avi">
+									<source src="imagens/vídeo.mp4" type="video/mp4">
+									Seu navegador não suporta esse vídeo :(
+								</video>
+								<p> Nulla sapien nulla, dignissim in sagittis eu, dictum quis lorem. Mauris eget imperdiet ex. Integer sed pretium ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ac leo sed urna varius ullamcorper. </p>
+								<p> Donec semper, velit id ultricies porttitor, neque nunc blandit nibh, sed tincidunt neque quam ut odio. Donec ut iaculis ligula, eu ullamcorper turpis. Nulla ac eros ut diam sagittis scelerisque. Nam egestas mollis tortor, ut ultricies purus varius at. Proin at faucibus tellus. </p>
+						</article>
+					</div>
+					</a>
+				</section>
+				<footer> <!-- Footer - Contato -->
+					<a name="contato" id="contato">
+						<p> <a href="https://www.linkedin.com/in/lara-dalaqua-ravagnani-b72aa0154/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BfeXBqMdzQie8Gc0QDdG%2BGg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-identity_update_profile"> Linkedin </a> - <a href="https://www.facebook.com/lara.d.ravagnani?ref=bookmarks"> Facebook </a> - <a href="http://www.fatecjales.edu.br/"> Fatec </a> </p> </br>
+						<p> Copyright © Lara Dalaqua Ravagnani > 2018 </p>
+					</a>
+				</footer>
 		</section>
     </body>
    

@@ -1,8 +1,9 @@
 *{
 	padding: 0;
 	margin: 0;
-	overflow: hidden;
-	font-family: 'Raleway', sans-serif;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-family: 'Tw Cen MT', sans-serif, calibri;
 }
 /* Menu */
 ul{
@@ -24,7 +25,7 @@ li a{
 	display: block;
 	color: #666666;
 	text-align: center;
-	font-size: 1.7vw;
+	font-size: 1.8vw;
 	padding: 30px 15px;
 	text-decoration: none;
 }
@@ -37,7 +38,7 @@ ul img{
 }
 /* Texto Inicial */
 section .texto-inicial{
-	background-color: #FAFAFA;
+	background-color: #fafafa;
 	color: #4d4d4d;
 	text-align: justify;
 	width: 100%;
@@ -62,6 +63,7 @@ section .texto-inicial{
 	color: white;
 	text-transform: uppercase;
 	border: none;
+	outline: none;
 	border-radius: 2%;
 	width: 20%;
 	font-size: 1.5vw;
@@ -101,4 +103,44 @@ section .texto-inicial{
 	.galeria-item { margin: 0; }
 	.galeria { padding: 0; }
   
+}
+/* Sobre */
+.sobre{
+	width: 100%;
+	padding: 2%;
+	background-color: #ffeff2;
+	color: #666666;
+}
+.sobre h1{
+	font-size: 2.2vw;
+	text-transform: uppercase;
+	letter-spacing: 0.3vw;
+	padding-bottom: 1%;
+}
+.sobre p{
+	text-indent: 2vw;
+	padding-left: 2%;
+	line-height: 1.7;
+	font-size: 1.8vw;
+	margin: 1%;
+}
+video{
+	float: left;
+}
+/* Footer */
+footer{
+	padding: 2.5%;
+	text-align: center;
+	background-color: #a6a6a6;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5vw;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+footer a:hover{
+	color: #333333;
 }
