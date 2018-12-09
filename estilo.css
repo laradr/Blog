@@ -14,14 +14,15 @@ ul{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	padding-bottom: 1%;
-}
+	padding-bottom: 0.6%;
+	border-bottom: 1px outset;
+} 
 li{
 	font-weight: bold;
 }
 li a{
 	display: block;
-	color: #737373;
+	color: #666666;
 	text-align: center;
 	font-size: 1.7vw;
 	padding: 30px 15px;
@@ -36,20 +37,43 @@ ul img{
 }
 /* Texto Inicial */
 section .texto-inicial{
-	background-color: #34C0D3;
-	color: white;
-	text-align: center;
+	background-color: #FAFAFA;
+	color: #4d4d4d;
+	text-align: justify;
 	width: 100%;
 	padding-top: 10%;
 	padding-bottom: 3%;
+	display: flex;
+	padding-left: 30%;
 }
 .texto-inicial h1{
 	font-weight: bold;
 	font-size: 3vw;
-	line-height: 2;
-}	
-.texto-inicial p{
-	font-size: 2vw;
+	text-transform: uppercase;
+	letter-spacing: 0.3vw;
+}
+.texto-inicial img{
+	max-width: 26%;
+	float: left;
+	margin: 1%;
+}
+.button-inicial{
+	background-color: #f7bbca;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 2%;
+	width: 20%;
+	font-size: 1.5vw;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.8%;
+	margin-top: 2%;
+}
+.button-inicial:hover{
+	background-color: #34C0D3;
 }
 /* Galeria */
 .galeria{
