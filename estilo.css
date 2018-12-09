@@ -26,7 +26,7 @@ li a{
 	color: #666666;
 	text-align: center;
 	font-size: 1.8vw;
-	padding: 30px 15px;
+	padding: 30px 40px;
 	text-decoration: none;
 }
 li a:hover{
@@ -45,7 +45,7 @@ section .texto-inicial{
 	padding-top: 10%;
 	padding-bottom: 3%;
 	display: flex;
-	padding-left: 30%;
+	padding-left: 32%;
 }
 .texto-inicial h1{
 	font-weight: bold;
@@ -107,31 +107,34 @@ section .texto-inicial{
 /* Sobre */
 .sobre{
 	width: 100%;
-	padding: 2%;
-	background-color: #ffeff2;
-	color: #666666;
+	padding: 2% 5% 3% 5%;
+	background-color: #fafafa;
 }
 .sobre h1{
 	font-size: 2.2vw;
 	text-transform: uppercase;
 	letter-spacing: 0.3vw;
 	padding-bottom: 1%;
+	color: #f7bbca;
 }
 .sobre p{
 	text-indent: 2vw;
 	padding-left: 2%;
-	line-height: 1.7;
+	padding-right: 10%;
+	line-height: 1.6;
 	font-size: 1.8vw;
 	margin: 1%;
+	color: #666666;
+	text-align: justify;
 }
 video{
 	float: left;
 }
 /* Footer */
 footer{
-	padding: 2.5%;
+	padding: 2%;
 	text-align: center;
-	background-color: #a6a6a6;
+	background-color: #bdbdbd;
 	font-weight: bold;
 	color: white;
 	font-size: 1.5vw;
