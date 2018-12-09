@@ -14,7 +14,7 @@ ul{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	border-bottom: 2px double #f9ffff;
+	padding-bottom: 1%;
 }
 li{
 	font-weight: bold;
@@ -37,15 +37,23 @@ ul img{
 /* Texto Inicial */
 section .texto-inicial{
 	background-color: #34C0D3;
+	color: white;
+	text-align: center;
 	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 3%;
 }
 .texto-inicial h1{
 	font-weight: bold;
+	font-size: 3vw;
+	line-height: 2;
 }	
+.texto-inicial p{
+	font-size: 2vw;
+}
 /* Galeria */
 .galeria{
 	padding: .5vw;
-	font-size: 0;
 	display: -ms-flexbox;
 	-ms-flex-wrap: wrap;
 	-ms-flex-direction: column;
