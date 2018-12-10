@@ -36,6 +36,7 @@ li a:hover{
 ul img{
 	max-height: 75px;
 	padding: 0.5% 3%;
+	margin-right: 2vw;
 }
 /* Texto Inicial */
 section .texto-inicial{
