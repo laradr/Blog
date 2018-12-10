@@ -125,6 +125,7 @@ section .texto-inicial{
 }
 video{
 	float: left;
+	width: 33%;
 }
 /* Footer */
 footer{
@@ -146,40 +147,56 @@ footer a:hover{
 
 /* Breakpoints */
 
-@media screen and (max-width: 400px) {
-	.galeria-item { margin: 0; }
-	.galeria { padding: 0; }
-	section .texto-inicial { padding-top: 25%; }
-}
 @media screen and (max-width: 1200px){
+	/* Alteração texto inicial */
 	section .texto-inicial { padding-top: 12%; }
 }
 @media screen and (max-width: 1000px) {
+	/* Alteração texto inicial */
 	section .texto-inicial { padding-top: 15%; padding-left: 27%; }
 	.texto-inicial h1 { font-size: 4vw; }
+	.button-inicial { font-size: 1.8vw; }
+	/* Alteração menu */
 	li a { font-size: 2.5vw; }
+	/* Alteração sobre */
 	.sobre h1 { font-size: 3vw; }
 	.sobre p { font-size: 2.5vw; clear: both; }
-	.button-inicial { font-size: 1.8vw; }
 	video { width: 90%; }
+	/* Alteração footer */
 	footer { font-size: 1.7vw; }
 }
 @media screen and (max-width: 900px) {
+	/* Alteração texto inicial */
 	section .texto-inicial { padding-left: 25%; }
+	/* Alteração footer */
 	footer { font-size: 2.3vw; }
 }
 @media screen and (max-width: 700px) {
+	/* Alteração texto inicial */
 	section .texto-inicial { padding-top: 18%; }
+	.button-inicial { font-size: 2.5vw; }
+	/* Alteração sobre */
 	.sobre h1 { font-size: 3.3vw;}
 	.sobre p { font-size: 3vw; }
-	.button-inicial { font-size: 2.5vw; }
+	/* Alteração menu */
 	li a { font-size: 3.5vw; }
 }
 @media screen and (max-width: 600px) {
+	/* Alteração texto inicial */
 	section .texto-inicial { padding-top: 22%; }
+	/* Alteração footer */
 	footer { font-size: 3vw; }
+	/* Alteração sobre */
 	.sobre h1 { font-size: 3.7vw; }
 	.sobre p { font-size: 3.8vw; }
+	/* Alteração menu */
 	ul img { padding: 0.5% 1%; }
 	li a { font-size: 4vw; padding: 30px 30px;}
+}
+@media screen and (max-width: 400px) {
+	/* Alteração galeria */
+	.galeria-item { margin: 0; }
+	.galeria { padding: 0; }
+	/* Alteração texto inicial */
+	section .texto-inicial { padding-top: 25%; }
 }
