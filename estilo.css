@@ -16,6 +16,7 @@ ul{
 	display: flex;
 	justify-content: center;
 	padding-bottom: 0.6%;
+	padding-top: 1%;
 	border-bottom: 1px outset;
 } 
 li{
@@ -45,7 +46,7 @@ section .texto-inicial{
 	padding-top: 10%;
 	padding-bottom: 3%;
 	display: flex;
-	padding-left: 32%;
+	padding-left: 30%;
 }
 .texto-inicial h1{
 	font-weight: bold;
@@ -99,11 +100,6 @@ section .texto-inicial{
 	width: 100%; 
 	height: auto; 
 }
-@media screen and (max-width: 400px) {
-	.galeria-item { margin: 0; }
-	.galeria { padding: 0; }
-  
-}
 /* Sobre */
 .sobre{
 	width: 100%;
@@ -146,4 +142,44 @@ footer a {
 }
 footer a:hover{
 	color: #333333;
+}
+
+/* Breakpoints */
+
+@media screen and (max-width: 400px) {
+	.galeria-item { margin: 0; }
+	.galeria { padding: 0; }
+	section .texto-inicial { padding-top: 25%; }
+}
+@media screen and (max-width: 1200px){
+	section .texto-inicial { padding-top: 12%; }
+}
+@media screen and (max-width: 1000px) {
+	section .texto-inicial { padding-top: 15%; padding-left: 27%; }
+	.texto-inicial h1 { font-size: 4vw; }
+	li a { font-size: 2.5vw; }
+	.sobre h1 { font-size: 3vw; }
+	.sobre p { font-size: 2.5vw; clear: both; }
+	.button-inicial { font-size: 1.8vw; }
+	video { width: 90%; }
+	footer { font-size: 1.7vw; }
+}
+@media screen and (max-width: 900px) {
+	section .texto-inicial { padding-left: 25%; }
+	footer { font-size: 2.3vw; }
+}
+@media screen and (max-width: 700px) {
+	section .texto-inicial { padding-top: 18%; }
+	.sobre h1 { font-size: 3.3vw;}
+	.sobre p { font-size: 3vw; }
+	.button-inicial { font-size: 2.5vw; }
+	li a { font-size: 3.5vw; }
+}
+@media screen and (max-width: 600px) {
+	section .texto-inicial { padding-top: 22%; }
+	footer { font-size: 3vw; }
+	.sobre h1 { font-size: 3.7vw; }
+	.sobre p { font-size: 3.8vw; }
+	ul img { padding: 0.5% 1%; }
+	li a { font-size: 4vw; padding: 30px 30px;}
 }
